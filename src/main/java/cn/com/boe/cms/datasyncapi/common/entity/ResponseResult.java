@@ -2,7 +2,6 @@ package cn.com.boe.cms.datasyncapi.common.entity;
 
 import cn.com.boe.cms.datasyncapi.common.exception.ExceptionEnum;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

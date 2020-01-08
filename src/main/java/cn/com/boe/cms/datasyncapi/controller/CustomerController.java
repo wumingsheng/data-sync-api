@@ -22,7 +22,7 @@ public class CustomerController extends BaseController {
 	@GetMapping("all")
 	public Object getAll() throws Exception {
 		
-		List<Customer> list = customerService.list();
+		List<Customer> list = customerService.getAll();
 		
 		return ok(list);
 		
